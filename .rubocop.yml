@@ -4,6 +4,9 @@ AllCops:
   NewCops: enable
   SuggestExtensions: false
 
+Style/ArgumentsForwarding:
+  Enabled: false
+
 # We don't want to be switching between styles depending on whether
 # we're interpolating or not.
 Style/StringLiterals:
@@ -27,7 +30,6 @@ Style/WordArray:
 
 Style/IfUnlessModifier:
   Enabled: false
-
 Style/SymbolProc:
   Enabled: false
 
