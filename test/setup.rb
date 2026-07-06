@@ -50,6 +50,7 @@ require "active_record_doctor"
 
 # Configure the test suite.
 require "minitest"
+require "minitest/mock"
 require "minitest/autorun"
 require "minitest/fork_executor"
 
