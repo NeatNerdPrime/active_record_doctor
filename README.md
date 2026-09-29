@@ -689,17 +689,6 @@ Supported configuration options:
 - `enabled` - set to `true` to enable the detector
 - `ignore_tables` - tables that are not represented by models but cannot yet be dropped from the database (i.e. because the deployed version of the code may still be reading it)
 
-## Ruby and Rails Compatibility Policy
-
-The goal of the policy is to ensure proper functioning in reasonable
-combinations of Ruby and Rails versions. Specifically:
-
-1. If a Rails version is officially supported by the Rails Core Team then it's
-   supported by `active_record_doctor`.
-2. If a Ruby version is compatible with a supported Rails version then it's
-   also supported by `active_record_doctor`.
-3. Only the most recent teeny Ruby versions and patch Rails versions are supported.
-
 ## Author
 
 This gem is developed and maintained by [Greg Navis](http://www.gregnavis.com).
